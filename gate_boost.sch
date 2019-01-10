@@ -14353,15 +14353,15 @@ Texas Instruments and Fairchild Semiconductor
 <part name="SUPPLY3" library="supply2" deviceset="V+" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="jason_eagle6" deviceset="SP34063A_BOOST_REG" device=""/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="180"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="1500pf"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="6k2"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="3k3"/>
 <part name="SUPPLY6" library="supply2" deviceset="V+" device=""/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="0.22"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="68k"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
@@ -14435,14 +14435,20 @@ Texas Instruments and Fairchild Semiconductor
 <instance part="SUPPLY3" gate="1" x="60.96" y="15.24"/>
 <instance part="SUPPLY4" gate="GND" x="124.46" y="17.78"/>
 <instance part="IC2" gate="G$1" x="243.84" y="81.28"/>
-<instance part="R20" gate="G$1" x="276.86" y="83.82"/>
+<instance part="R20" gate="G$1" x="276.86" y="83.82" smashed="yes">
+<attribute name="NAME" x="273.05" y="85.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="274.828" y="82.804" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY5" gate="GND" x="213.36" y="38.1"/>
 <instance part="C1" gate="G$1" x="220.98" y="78.74" rot="R270"/>
 <instance part="JP1" gate="A" x="243.84" y="68.58" rot="R90"/>
 <instance part="R24" gate="G$1" x="220.98" y="43.18"/>
 <instance part="R23" gate="G$1" x="236.22" y="43.18" rot="R180"/>
 <instance part="SUPPLY6" gate="1" x="195.58" y="68.58"/>
-<instance part="R21" gate="G$1" x="276.86" y="78.74"/>
+<instance part="R21" gate="G$1" x="276.86" y="78.74" smashed="yes">
+<attribute name="NAME" x="273.05" y="80.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="274.32" y="77.978" size="1.778" layer="96"/>
+</instance>
 <instance part="R19" gate="G$1" x="223.52" y="58.42"/>
 <instance part="SUPPLY7" gate="GND" x="269.24" y="38.1"/>
 <instance part="SUPPLY8" gate="GND" x="292.1" y="38.1"/>
