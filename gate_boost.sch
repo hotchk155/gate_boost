@@ -15744,9 +15744,9 @@ Parts Updated:
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C0805"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="IC3" library="jason_eagle6" deviceset="LM27675M5_CHARGEPUMP" device=""/>
 <part name="D1" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="SMCA" value="10u"/>
@@ -15759,8 +15759,8 @@ Parts Updated:
 <part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="+10V" device=""/>
 <part name="IC1" library="linear" deviceset="LM358" device="D"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="47k"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="47k"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
@@ -15768,8 +15768,8 @@ Parts Updated:
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="2m2"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="2m2"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805"/>
 <part name="C" library="led" deviceset="LED" device="3MM"/>
 <part name="D" library="led" deviceset="LED" device="3MM"/>
