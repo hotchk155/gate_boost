@@ -15778,12 +15778,12 @@ Parts Updated:
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="IC2" library="linear" deviceset="LM358" device="D"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="47k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="47k"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -15791,8 +15791,8 @@ Parts Updated:
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="2m2"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="2m2"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805"/>
 <part name="OUT1" library="jason_eagle6" deviceset="VERTICAL_3_5MM_SOCKET" device=""/>
 <part name="OUT2" library="jason_eagle6" deviceset="VERTICAL_3_5MM_SOCKET" device=""/>
