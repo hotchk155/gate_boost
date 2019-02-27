@@ -16523,40 +16523,30 @@ BUFFERS 3/4</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,218.44,93.98,IC4P,V+,VGATE1,,,"/>
-<approved hash="104,1,218.44,78.74,IC4P,V-,GND,,,"/>
-<approved hash="104,1,218.44,2.54,IC1P,V+,VGATE2,,,"/>
-<approved hash="104,1,218.44,-12.7,IC1P,V-,GND,,,"/>
+<approved hash="104,1,218.44,93.98,IC1P,V+,VGATE1,,,"/>
+<approved hash="104,1,218.44,78.74,IC1P,V-,GND,,,"/>
+<approved hash="104,1,218.44,2.54,IC2P,V+,VGATE2,,,"/>
+<approved hash="104,1,218.44,-12.7,IC2P,V-,GND,,,"/>
 <approved hash="208,1,50.8,43.18,+5V,sup,,,,"/>
 <approved hash="208,1,22.86,35.56,+5V,out,,,,"/>
 <approved hash="208,1,185.42,104.14,+5V,sup,,,,"/>
 <approved hash="208,1,185.42,12.7,+5V,sup,,,,"/>
-<approved hash="113,1,170.502,54.61,LED1,,,,,"/>
-<approved hash="113,1,178.122,54.61,LED2,,,,,"/>
-<approved hash="113,1,255.671,80.01,C5,,,,,"/>
+<approved hash="113,1,170.502,54.61,A,,,,,"/>
+<approved hash="113,1,178.122,54.61,B,,,,,"/>
+<approved hash="113,1,255.671,80.01,C3,,,,,"/>
 <approved hash="113,1,255.671,54.61,C4,,,,,"/>
-<approved hash="113,1,243.84,87.3548,R5,,,,,"/>
-<approved hash="113,1,243.84,61.9548,R4,,,,,"/>
-<approved hash="113,1,97.878,19.05,C6,,,,,"/>
-<approved hash="113,1,184.425,43.18,R7,,,,,"/>
-<approved hash="113,1,226.06,67.5852,R8,,,,,"/>
-<approved hash="113,1,226.06,95.5252,R11,,,,,"/>
-<approved hash="113,1,225.901,110.49,C10,,,,,"/>
-<approved hash="113,1,170.502,-36.83,LED3,,,,,"/>
-<approved hash="113,1,178.122,-36.83,LED4,,,,,"/>
-<approved hash="113,1,255.671,-11.43,C1,,,,,"/>
-<approved hash="113,1,255.671,-36.83,C2,,,,,"/>
-<approved hash="113,1,243.84,-4.08517,R3,,,,,"/>
-<approved hash="113,1,243.84,-29.4852,R14,,,,,"/>
-<approved hash="113,1,184.425,-48.26,R15,,,,,"/>
-<approved hash="113,1,226.06,-23.8548,R19,,,,,"/>
-<approved hash="113,1,226.06,4.08517,R20,,,,,"/>
-<approved hash="113,1,225.191,19.05,C3,,,,,"/>
-<approved hash="113,1,111.629,73.66,S1,,,,,"/>
-<approved hash="113,1,-13.882,24.13,C9,,,,,"/>
-<approved hash="113,1,-5.33281,24.13,C11,,,,,"/>
-<approved hash="113,1,25.2409,24.13,C12,,,,,"/>
-<approved hash="113,1,35.8817,25.0844,CLK_LED2,,,,,"/>
+<approved hash="113,1,97.878,19.05,C9,,,,,"/>
+<approved hash="113,1,225.191,110.49,C1,,,,,"/>
+<approved hash="113,1,170.502,-36.83,C,,,,,"/>
+<approved hash="113,1,178.122,-36.83,D,,,,,"/>
+<approved hash="113,1,255.671,-11.43,C5,,,,,"/>
+<approved hash="113,1,255.671,-36.83,C6,,,,,"/>
+<approved hash="113,1,225.191,19.05,C2,,,,,"/>
+<approved hash="113,1,111.629,73.66,SW1,,,,,"/>
+<approved hash="113,1,-13.1724,24.13,C12,,,,,"/>
+<approved hash="113,1,-5.94869,24.13,C7,,,,,"/>
+<approved hash="113,1,24.5313,24.13,C8,,,,,"/>
+<approved hash="113,1,35.8817,24.13,PWR,,,,,"/>
 </errors>
 </schematic>
 </drawing>
