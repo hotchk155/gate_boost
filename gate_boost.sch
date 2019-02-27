@@ -15820,19 +15820,27 @@ Parts Updated:
 <part name="IN4" library="jason_eagle6" deviceset="VERTICAL_3_5MM_SOCKET" device=""/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
-<part name="D3" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="D4" library="diode" deviceset="MBR0520LT" device=""/>
+<part name="D5" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="U$4" library="microbuilder" deviceset="VIN" device=""/>
 <part name="GND24" library="SparkFun" deviceset="GND" device=""/>
+<part name="D3" library="diode" deviceset="MBR0520LT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="49.276" y="0.254" size="3.81" layer="91">10V CHARGE PUMP</text>
 <text x="2.286" y="-31.75" size="5.08" layer="91">CVOCD GATE BOOST</text>
-<text x="2.54" y="-38.1" size="5.08" layer="91">VERSION 1 - 10jan19</text>
+<text x="2.54" y="-38.1" size="5.08" layer="91">VERSION 2 - 13feb19</text>
 <text x="2.54" y="-45.72" size="3.81" layer="91">Sixty four pixels limited</text>
 <text x="2.54" y="-50.8" size="3.81" layer="91">CC-BY-SA</text>
+<text x="-6.604" y="45.974" size="3.81" layer="91">5V REGULATOR</text>
+<text x="67.056" y="68.834" size="3.81" layer="91">GATE VOLTAGE 
+SELECTION</text>
+<text x="204.216" y="40.894" size="3.81" layer="91">OUTPUT 
+BUFFERS 1/2</text>
+<text x="206.756" y="-50.546" size="3.81" layer="91">OUTPUT 
+BUFFERS 3/4</text>
 </plain>
 <instances>
 <instance part="A" gate="G$1" x="170.18" y="55.88"/>
@@ -15922,10 +15930,11 @@ Parts Updated:
 <instance part="IN4" gate="G$1" x="147.32" y="-27.94"/>
 <instance part="GND15" gate="1" x="162.56" y="33.02"/>
 <instance part="GND23" gate="1" x="162.56" y="-58.42"/>
-<instance part="D3" gate="G$1" x="111.76" y="40.64" rot="R90"/>
-<instance part="D4" gate="G$1" x="114.3" y="45.72" rot="R90"/>
-<instance part="U$4" gate="G$1" x="111.76" y="88.9"/>
+<instance part="D4" gate="G$1" x="111.76" y="40.64" rot="R90"/>
+<instance part="D5" gate="G$1" x="114.3" y="45.72" rot="R90"/>
+<instance part="U$4" gate="G$1" x="111.76" y="101.6"/>
 <instance part="GND24" gate="1" x="-27.94" y="15.24"/>
+<instance part="D3" gate="G$1" x="111.76" y="93.98" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -16214,10 +16223,10 @@ Parts Updated:
 <junction x="96.52" y="35.56"/>
 <pinref part="SUPPLY7" gate="G$1" pin="+10V"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="35.56" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="35.56" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <junction x="111.76" y="35.56"/>
@@ -16306,7 +16315,7 @@ Parts Updated:
 <label x="215.9" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <pinref part="SW1" gate="1" pin="2"/>
 <wire x1="114.3" y1="48.26" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="60.96" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
@@ -16450,14 +16459,9 @@ Parts Updated:
 <wire x1="-15.24" y1="45.72" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="1" pin="4"/>
-<wire x1="111.76" y1="81.28" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="1" pin="3"/>
-<wire x1="114.3" y1="86.36" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="U$4" gate="G$1" pin="VIN"/>
-<wire x1="111.76" y1="88.9" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<junction x="111.76" y="86.36"/>
+<wire x1="111.76" y1="96.52" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VGATE1" class="0">
@@ -16472,7 +16476,7 @@ Parts Updated:
 <label x="215.9" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="SW1" gate="1" pin="1"/>
 <wire x1="111.76" y1="43.18" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="63.5" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
@@ -16501,6 +16505,18 @@ Parts Updated:
 <wire x1="177.8" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 <junction x="177.8" y="63.5"/>
 <pinref part="IN2" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="SW1" gate="1" pin="4"/>
+<wire x1="111.76" y1="81.28" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="1" pin="3"/>
+<wire x1="114.3" y1="86.36" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="111.76" y1="91.44" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<junction x="111.76" y="86.36"/>
 </segment>
 </net>
 </nets>
@@ -16544,4 +16560,10 @@ Parts Updated:
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
