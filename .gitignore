@@ -77,3 +77,15 @@ cv-strip.hex
 
 old/*.*
 Backup_of_*.cdr
+fascia/.svg2shenzhen-cache/export_options.pickle
+fascia/.svg2shenzhen-cache/g115-F.Cu-export-true.hash
+fascia/.svg2shenzhen-cache/g117-F.SilkS-export-true.hash
+fascia/.svg2shenzhen-cache/images/F.Cu_g115.png
+fascia/.svg2shenzhen-cache/images/F.SilkS_g117.png
+fascia/fp-info-cache
+fascia/fp-lib-table
+*.gbr
+*.gbrjob
+*.kicad_mod
+*.kicad_pcb-bak
+*.pro
