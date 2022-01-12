@@ -89,3 +89,5 @@ fascia/fp-lib-table
 *.kicad_mod
 *.kicad_pcb-bak
 *.pro
+fascia/.svg2shenzhen-cache/g21-F.SilkS-export-true.hash
+fascia/.svg2shenzhen-cache/images/F.SilkS_g21.png
