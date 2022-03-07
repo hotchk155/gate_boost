@@ -21,3 +21,13 @@ SW1 										Dual DIP switch 02YL
 
 IN1, IN2, IN3, IN4, OUT1, OUT2, OUT3, OUT4  VERTICAL 3.5MM SOCKET
 U$1, U$2  									PWR_SOCKET_2_1MM
+
+
+CASE
+4 x 11mm FF standoff
+4 x 8mm hex bolts
+4 x 3mm spacer
+4 x 12mm hex bolts
+4 x rubber feet
+
+DC-DC cable
