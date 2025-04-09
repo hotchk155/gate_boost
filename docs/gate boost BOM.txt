@@ -1,18 +1,18 @@
 R1, R3, R5, R7, R17, R18, R19, R20, R21   	1K resistor 0805
-R2, R4, R6, R8   							100k resistor 0805
-R9, R10, R13, R14   						2m2 resistor 0805
-R11, R12, R15, R16  						47k resistor 0805
+R2, R4, R6, R8   				100k resistor 0805
+R9, R10, R13, R14   				2m2 resistor 0805
+R11, R12, R15, R16  				47k resistor 0805
 
-C1, C2, C7, C8 								100n Ceramic cap 0805
-C3, C4, C5, C6 								10n Ceramic cap 0805
-C9, C10, C11  								10u Tantalum "A" case
-C12 										47uF/16V electrolytic
+C1, C2, C7, C8 					100n Ceramic cap 0805
+C3, C4, C5, C6 					10n Ceramic cap 0805
+C9, C10, C11  					10u Tantalum "A" case
+C12 						47uF/16V electrolytic
 
-D1, D2, D3, D4, D5   						MBR0520LT schottky diode
+D1, D2, D3, D4, D5   				MBR0520LT schottky diode
 
-IC1, IC2 									TSX7192IDT SOIC-8 dual op amp r/r 
-IC3  										LM27675M5 charge pump SOT23-6                                                                                                
-IC4  										REG1117 +5V regulator SOT223
+IC1, IC2 					TSX7192IDT SOIC-8 dual op amp r/r 
+IC3  						LM27675M5 charge pump SOT23-6                                                                                                
+IC4  						REG1117 +5V regulator SOT223
 
 A, B, C, D 									1.8mm Blue LED
 PWR 										1.8mm Red LED
